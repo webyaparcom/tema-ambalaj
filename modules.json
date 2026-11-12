@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1534,18 +1545,18 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Özel seri ambalaj",
-          "en": "Custom packaging",
-          "ar": "تغليف مخصص"
+          "en": "Custom series packaging",
+          "ar": "تغليف مخصص للإنتاج المتسلسل"
         },
         "title": {
           "tr": "Ürününüzü öne çıkaran kutu",
-          "en": "Box that makes your product stand out",
-          "ar": "صندوق يبرز منتجك"
+          "en": "A box that makes your product stand out",
+          "ar": "صندوق يُبرز منتجك"
         },
         "metin": {
-          "tr": "Pakira Ambalaj, kartondan Cama kadar özel seri üretim yapar. Aşağıdaki görseller temsilidir; tüm metinler kurgusaldır.",
-          "en": "Pakira packaging runs custom production from cardboard to glass. The images below are representative and all text is fictional.",
-          "ar": "تنفذ باكيرا تغليف إنتاجًا مخصصًا من الكرتون إلى الزجاج. الصور أدناه تمثيلية وجميع النصوص افتراضية."
+          "tr": "Pakira Ambalaj; karton kutu, cam kavanoz ve koli üretir. Ölçü ve baskı örneği onaylandıktan sonra seri üretime geçilir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Pakira Ambalaj makes cardboard boxes, glass jars and cartons. Once the size and print sample are approved, series production begins. Images are representative; all text is fictional.",
+          "ar": "تصنع باكيرا للتغليف الصناديق الكرتونية والبرطمانات الزجاجية وكراتين الشحن. بعد اعتماد القياس وعينة الطباعة يبدأ الإنتاج المتسلسل. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Ürünleri gör",
@@ -1601,30 +1612,30 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What we produce?",
-          "ar": "ماذا نصنع?"
+          "tr": "Rakamlarla Pakira",
+          "en": "Pakira in numbers",
+          "ar": "باكيرا بالأرقام"
         },
         "description": {
-          "tr": "Kurgusal demo verileri.",
+          "tr": "Kurgusal demo değerleri.",
           "en": "Fictional demo figures.",
-          "ar": "بيانات تجريبية افتراضية."
+          "ar": "قيم تجريبية افتراضية."
         }
       },
       "data": [
         {
           "deger": 12,
           "sonek": "",
-          "ikon": "square_foot",
+          "ikon": "inventory_2",
           "etiket": {
-            "tr": "Ürün tipi",
-            "en": "Product types",
-            "ar": "أنواع المنتجات"
+            "tr": "Ambalaj çeşidi",
+            "en": "Packaging types",
+            "ar": "أنواع التغليف"
           },
           "aciklama": {
-            "tr": "Karton, cam, koli",
-            "en": "Cardboard, glass, carton",
-            "ar": "كرتون، زجاج، كرتونة"
+            "tr": "Karton, cam, koli, palet",
+            "en": "Cardboard, glass, carton, pallet",
+            "ar": "كرتون وزجاج وكراتين ومنصات"
           }
         },
         {
@@ -1632,14 +1643,14 @@
           "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Günde tekrar üretim",
-            "en": "Reproduction days",
-            "ar": "أيام إعادة الإنتاج"
+            "tr": "İş günü",
+            "en": "Business days",
+            "ar": "أيام عمل"
           },
           "aciklama": {
-            "tr": "Azami süre",
-            "en": "Maximum time",
-            "ar": "الحد الأقصى"
+            "tr": "Tekrar siparişte azami süre",
+            "en": "Maximum lead time on repeat orders",
+            "ar": "أقصى مدة للطلبات المتكررة"
           }
         },
         {
@@ -1647,14 +1658,14 @@
           "sonek": "%",
           "ikon": "verified",
           "etiket": {
-            "tr": "İlk kabul",
-            "en": "First pass",
-            "ar": "المقبول الأول"
+            "tr": "İlk seferde kabul",
+            "en": "Accepted first time",
+            "ar": "مقبول من أول مرة"
           },
           "aciklama": {
-            "tr": "Parti bazında",
-            "en": "By batch",
-            "ar": "حسب الدفعة"
+            "tr": "Parti bazında (kurgusal değer)",
+            "en": "By batch (fictional figure)",
+            "ar": "حسب الدفعة (رقم افتراضي)"
           }
         },
         {
@@ -1664,7 +1675,7 @@
           "etiket": {
             "tr": "Üretici müşteri",
             "en": "Producer customers",
-            "ar": "عملاء منتجين"
+            "ar": "عملاء من المنتجين"
           },
           "aciklama": {
             "tr": "2024–2026",
@@ -1695,19 +1706,19 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Hizmetlerimiz",
-          "en": "Our services",
-          "ar": "خدماتنا"
+          "tr": "Ürünlerimiz",
+          "en": "Our products",
+          "ar": "منتجاتنا"
         },
         "title": {
           "tr": "Ne üretiyoruz?",
-          "en": "What we produce?",
-          "ar": "ماذا نصنع?"
+          "en": "What do we make?",
+          "ar": "ماذا نصنع؟"
         },
         "description": {
           "tr": "Tasarımdan seri üretime tek çatı.",
-          "en": "One roof from design to mass production.",
-          "ar": "سقف واحد من التصميم إلى الإنتاج الجماعي."
+          "en": "One roof from design to series production.",
+          "ar": "سقف واحد من التصميم إلى الإنتاج المتسلسل."
         }
       },
       "data": [
@@ -1715,78 +1726,78 @@
           "icon": "inventory_2",
           "name": {
             "tr": "Kart kutu",
-            "en": "Cardboard box",
-            "ar": "صندوق كرتوني"
+            "en": "Printed box",
+            "ar": "صناديق كرتونية"
           },
           "description": {
-            "tr": "Yemek, kozmetik ve elektronik için 4–8 renk baskılı kutu.",
-            "en": "4–8 colour printed boxes for food, cosmetics and electronics.",
-            "ar": "صناديق مطبوعة بأربعة إلى ثمانية ألوان للطعام والمستلزمات الإلكترونية."
+            "tr": "Gıda, kozmetik ve elektronik ürünler için 4–8 renk baskılı katlanır kutu.",
+            "en": "Folding boxes printed in 4–8 colours for food, cosmetics and electronics.",
+            "ar": "علب كرتونية قابلة للطي مطبوعة بأربعة إلى ثمانية ألوان للأغذية ومستحضرات التجميل والإلكترونيات."
           }
         },
         {
-          "icon": "eco",
+          "icon": "liquor",
           "name": {
-            "tr": "Doğal cam",
-            "en": "Natural glass",
-            "ar": "زجاج طبيعي"
+            "tr": "Cam kavanoz ve şişe",
+            "en": "Glass jars and bottles",
+            "ar": "برطمانات وزجاجات زجاجية"
           },
           "description": {
-            "tr": "Kavanoz ve şişe; etiket ve ambalajla birlikte teslim.",
-            "en": "Jars and bottles; delivered with label and packaging.",
-            "ar": "جمرات وقوارير؛ تُسلَّم مع الملصق والتغليف."
+            "tr": "Reçel, bal ve sos için kavanoz; kapak ve etiketle birlikte teslim.",
+            "en": "Jars for jam, honey and sauce, delivered with lids and labels.",
+            "ar": "برطمانات للمربى والعسل والصلصات، تُسلَّم مع الأغطية والملصقات."
           }
         },
         {
           "icon": "layers",
           "name": {
             "tr": "Koli ve palet",
-            "en": "Carton and pallet",
-            "ar": "كرتونة وطليت"
+            "en": "Cartons and pallets",
+            "ar": "كراتين ومنصات نقل"
           },
           "description": {
-            "tr": "Depo ve lojistik için mukavva koli ve palet.",
-            "en": "Corrugated cartons and pallets for warehousing and logistics.",
-            "ar": "صناديق مموجة وبتالت للمستودعات واللوجستيات."
+            "tr": "Depo ve sevkiyat için oluklu mukavva koli ve palet.",
+            "en": "Corrugated cartons and pallets for storage and shipping.",
+            "ar": "كراتين مموجة ومنصات نقل للتخزين والشحن."
           }
         },
         {
           "icon": "design_services",
           "name": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "تصميم"
+            "tr": "Ambalaj tasarımı",
+            "en": "Packaging design",
+            "ar": "تصميم التغليف"
           },
           "description": {
-            "tr": "Ambalaj için grafik tasarım ve baskı önizleme.",
-            "en": "Graphic design and print proof for packaging.",
-            "ar": "تصميم رسومي ومسودة طباعة للتغليف."
+            "tr": "Kutu açılımı, grafik tasarım ve baskı onay örneği.",
+            "en": "Box dieline, graphic design and a print proof for approval.",
+            "ar": "مخطط فتح العلبة والتصميم الجرافيكي وعينة طباعة للاعتماد."
           }
         },
         {
           "icon": "factory",
           "name": {
             "tr": "Seri üretim",
-            "en": "Mass production",
-            "ar": "إنتاج جماعي"
+            "en": "Series production",
+            "ar": "الإنتاج المتسلسل"
           },
           "description": {
-            "tr": "Azami 5 iş günde tekrar üretimi.",
-            "en": "Reproduction within up to 5 business days.",
-            "ar": "إعادة الإنتاج في غضون خمسة أيام عمل كحدٍّ أقصى."
+            "tr": "Onaylı örnekten parti üretimi; tekrar siparişlerde kısa süre.",
+            "en": "Batch production from the approved sample, with short lead times on repeat orders.",
+            "ar": "إنتاج بالدفعات من العينة المعتمدة، ومهلة قصيرة للطلبات المتكررة."
           }
         },
         {
-          "icon": "delivery_dining",
+          "icon": "local_shipping",
           "name": {
-            "tr": "Teslimat",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Sevkiyat",
+            "en": "Shipping",
+            "ar": "الشحن"
           },
           "description": {
-            "tr": "Gaziantep içi ücretsiz teslimat; kurgusal bilgi.",
-            "en": "Free delivery within Gaziantep; fictional information.",
-            "ar": "توصيل مجاني داخل غازي عنتاب؛ معلومات افتراضية."
+            "tr": "Gaziantep içi teslimat kendi aracımızla (kurgusal bilgi).",
+            "en": "Delivery within Gaziantep with our own vehicle (fictional information).",
+            "ar": "توصيل داخل غازي عنتاب بمركبتنا الخاصة (معلومات افتراضية)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Üretim akışı",
+          "en": "Production flow",
+          "ar": "مسار الإنتاج"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Ölçüden teslimata dört adım",
+          "en": "Four steps from sizing to delivery",
+          "ar": "أربع خطوات من القياس إلى التسليم"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Numuneden seri üretime aynı akış.",
+          "en": "The same flow from sample to series production.",
+          "ar": "المسار نفسه من العينة إلى الإنتاج المتسلسل."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,14 +1847,14 @@
         {
           "year": "01",
           "title": {
-            "tr": "Ölçü ve örnek",
-            "en": "Measure and sample",
-            "ar": "قياس وعينة"
+            "tr": "Ölçü ve numune",
+            "en": "Size and sample",
+            "ar": "القياس والعينة"
           },
           "text": {
-            "tr": "Ürün ölçüsünü alır, karton/kap örnekleri gösterilir.",
-            "en": "We take the product measure and show cardboard/jar samples.",
-            "ar": "نأخذ قياس المنتج ونعرض عينات الكرتون والجار."
+            "tr": "Ürün ölçüsü alınır; karton ve kavanoz numuneleri gösterilir.",
+            "en": "The product is measured and carton and jar samples are shown.",
+            "ar": "يُقاس المنتج وتُعرض عينات الكرتون والبرطمانات."
           }
         },
         {
@@ -1854,35 +1865,35 @@
             "ar": "اعتماد التصميم"
           },
           "text": {
-            "tr": "Baskı önizmesi iki turda onaylanır.",
-            "en": "The print proof is approved in two rounds.",
-            "ar": "يُعتمد مسودة الطباعة في جولتين."
+            "tr": "Baskı örneği en çok iki turda onaylanır.",
+            "en": "The print proof is approved in two rounds at most.",
+            "ar": "تُعتمد عينة الطباعة في جولتين على الأكثر."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Seri üretim",
-            "en": "Mass production",
-            "ar": "الإنتاج الجماعي"
+            "en": "Series production",
+            "ar": "الإنتاج المتسلسل"
           },
           "text": {
-            "tr": "Kalite kontrolüyle parti üretimi.",
-            "en": "Batch production with quality control.",
-            "ar": "إنتاج الدفعة مع رقابة الجودة."
+            "tr": "Parti parti kalite kontrolüyle üretim.",
+            "en": "Production in batches with quality checks.",
+            "ar": "إنتاج بالدفعات مع فحص الجودة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim ve tekrar",
-            "en": "Delivery and repeat",
-            "ar": "التسليم والتكرار"
+            "tr": "Teslim ve tekrar sipariş",
+            "en": "Delivery and repeat orders",
+            "ar": "التسليم وإعادة الطلب"
           },
           "text": {
-            "tr": "Teslim sonrası ölçü kartı ile tekrar üretimi.",
-            "en": "Repeat production after delivery with a measure card.",
-            "ar": "إعادة الإنتاج بعد التسليم ببطاقة القياس."
+            "tr": "Teslimden sonra ölçü kartıyla aynı ürün yeniden üretilir.",
+            "en": "After delivery, the same product is reproduced from the measure card.",
+            "ar": "بعد التسليم يُعاد إنتاج المنتج نفسه اعتمادًا على بطاقة القياس."
           }
         }
       ],
@@ -1916,14 +1927,14 @@
           "ar": "فريقنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Üretimin arkasındaki ekip",
+          "en": "The team behind production",
+          "ar": "الفريق وراء الإنتاج"
         },
         "description": {
-          "tr": "Kurgusal demo profiller.",
-          "en": "Fictional demo profiles.",
-          "ar": "ملفات تجريبية افتراضية."
+          "tr": "Kurgusal örnek kadro.",
+          "en": "A fictional sample team.",
+          "ar": "فريق افتراضي للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -1937,8 +1948,8 @@
             "ar": "مديرة الإنتاج"
           },
           "bio": {
-            "tr": "11 yıl ambalaj üretimi.",
-            "en": "11 years of packaging production.",
+            "tr": "Ambalaj üretiminde 11 yıl.",
+            "en": "11 years in packaging production.",
             "ar": "١١ عامًا في إنتاج التغليف."
           },
           "img": ""
@@ -1951,23 +1962,23 @@
             "ar": "قائدة التصميم"
           },
           "bio": {
-            "tr": "Ambalaj grafik ve baskı.",
-            "en": "Packaging graphics and print.",
-            "ar": "جرافيك التغليف والطباعة."
+            "tr": "Kutu açılımı ve baskı tasarımı.",
+            "en": "Box dielines and print design.",
+            "ar": "مخططات العلب وتصميم الطباعة."
           },
           "img": ""
         },
         {
-          "name": "Murat Ilhan",
+          "name": "Murat İlhan",
           "role": {
             "tr": "Kalite uzmanı",
             "en": "Quality specialist",
-            "ar": "اختصاصي الجودة"
+            "ar": "أخصائي الجودة"
           },
           "bio": {
-            "tr": "Parti kabul ve ölçü kontrolü.",
-            "en": "Batch acceptance and measure control.",
-            "ar": "قبول الدفعة وضبط القياس."
+            "tr": "Parti kabulü ve ölçü kontrolü.",
+            "en": "Batch acceptance and size checks.",
+            "ar": "قبول الدفعات وفحص القياسات."
           },
           "img": ""
         }
@@ -1998,19 +2009,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Üretici yorumları",
+          "en": "Producer reviews",
+          "ar": "آراء المنتجين"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Üreticiler ne diyor?",
+          "en": "What producers say",
+          "ar": "ماذا يقول المنتجون؟"
         },
         "description": {
-          "tr": "Kurgusal demo yorumlar.",
-          "en": "Fictional demo reviews.",
-          "ar": "تقييمات تجريبية افتراضية."
+          "tr": "Kurgusal örnek yorumlar.",
+          "en": "Fictional sample reviews.",
+          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2026,9 +2037,9 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kavanozlar tam ölçüde geldi; baskı net.",
-            "en": "Jars came exactly to measure; print is crisp.",
-            "ar": "وصلت الجمرات بالقياس الصحيح؛ الطباعة واضحة."
+            "tr": "Kavanozlar tam ölçüde geldi, baskı net.",
+            "en": "The jars arrived exactly to size and the print is sharp.",
+            "ar": "وصلت البرطمانات بالقياس المطلوب تمامًا والطباعة واضحة."
           }
         },
         {
@@ -2036,14 +2047,14 @@
           "role": {
             "tr": "Atıştırmalık markası",
             "en": "Snack brand",
-            "ar": "علامة سناكس"
+            "ar": "علامة وجبات خفيفة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Örnek turu kısa; seri üretim zamanında.",
-            "en": "Sample round was short; mass production on time.",
-            "ar": "كانت جولة العينة قصيرة؛ الإنتاج الجماعي في وقته."
+            "tr": "Numune turu kısa sürdü, seri üretim zamanında teslim edildi.",
+            "en": "The sample round was short and series production was delivered on time.",
+            "ar": "كانت جولة العينات قصيرة وسُلِّم الإنتاج المتسلسل في موعده."
           }
         },
         {
@@ -2057,8 +2068,8 @@
           "img": "",
           "text": {
             "tr": "Palet ve koli tek siparişte toplandı.",
-            "en": "Pallet and carton were consolidated in one order.",
-            "ar": "تم تجميع البتلت والكرتونة في طلب واحد."
+            "en": "Pallets and cartons were combined in a single order.",
+            "ar": "جُمعت المنصات والكراتين في طلب واحد."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "8px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Başlıca ürünler",
+          "en": "Main products",
+          "ar": "أبرز المنتجات"
         },
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What we produce?",
-          "ar": "ماذا نصنع?"
+          "tr": "Ürün gruplarımız",
+          "en": "Our product groups",
+          "ar": "مجموعات منتجاتنا"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; ürün ve rakamlar kurgusaldır.",
+          "en": "Images are representative; products and figures are fictional.",
+          "ar": "الصور تمثيلية والمنتجات والأرقام افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2127,15 +2138,15 @@
         {
           "baslik": {
             "tr": "Kart kutu",
-            "en": "Cardboard box",
-            "ar": "صندوق كرتوني"
+            "en": "Printed box",
+            "ar": "صناديق كرتونية"
           },
           "metin": {
-            "tr": "Yemek, kozmetik ve elektronik için 4–8 renk baskılı kutu.",
-            "en": "4–8 colour printed boxes for food, cosmetics and electronics.",
-            "ar": "صناديق مطبوعة بأربعة إلى ثمانية ألوان للطعام والمستلزمات الإلكترونية."
+            "tr": "Gıda, kozmetik ve elektronik ürünler için 4–8 renk baskılı katlanır kutu.",
+            "en": "Folding boxes printed in 4–8 colours for food, cosmetics and electronics.",
+            "ar": "علب كرتونية قابلة للطي مطبوعة بأربعة إلى ثمانية ألوان للأغذية ومستحضرات التجميل والإلكترونيات."
           },
-          "img": "ajans-is-kirtasiye.webp",
+          "img": "sanayi-uretim-hatti.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Doğal cam",
-            "en": "Natural glass",
-            "ar": "زجاج طبيعي"
+            "tr": "Cam kavanoz ve şişe",
+            "en": "Glass jars and bottles",
+            "ar": "برطمانات وزجاجات زجاجية"
           },
           "metin": {
-            "tr": "Kavanoz ve şişe; etiket ve ambalajla birlikte teslim.",
-            "en": "Jars and bottles; delivered with label and packaging.",
-            "ar": "جمرات وقوارير؛ تُسلَّم مع الملصق والتغليف."
+            "tr": "Reçel, bal ve sos için kavanoz; kapak ve etiketle birlikte teslim.",
+            "en": "Jars for jam, honey and sauce, delivered with lids and labels.",
+            "ar": "برطمانات للمربى والعسل والصلصات، تُسلَّم مع الأغطية والملصقات."
           },
-          "img": "ajans-is-afis.webp",
+          "img": "gida-urun-recel.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2165,15 +2176,15 @@
         {
           "baslik": {
             "tr": "Koli ve palet",
-            "en": "Carton and pallet",
-            "ar": "كرتونة وطليت"
+            "en": "Cartons and pallets",
+            "ar": "كراتين ومنصات نقل"
           },
           "metin": {
-            "tr": "Depo ve lojistik için mukavva koli ve palet.",
-            "en": "Corrugated cartons and pallets for warehousing and logistics.",
-            "ar": "صناديق مموجة وبتالت للمستودعات واللوجستيات."
+            "tr": "Depo ve sevkiyat için oluklu mukavva koli ve palet.",
+            "en": "Corrugated cartons and pallets for storage and shipping.",
+            "ar": "كراتين مموجة ومنصات نقل للتخزين والشحن."
           },
-          "img": "ajans-hero-studyo.webp",
+          "img": "disticaret-depo.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,9 +2240,9 @@
         "radius": "8px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Üretici müşterilerimiz",
+          "en": "Our producer customers",
+          "ar": "عملاؤنا من المنتجين"
         },
         "description": {
           "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "En az sipariş miktarı nedir?",
+            "en": "What is the minimum order quantity?",
+            "ar": "ما الحد الأدنى للطلب؟"
+          },
+          "answer": {
+            "tr": "Ürüne göre değişir; baskılı kutuda genellikle birkaç yüz adetle başlanır (kurgusal örnek).",
+            "en": "It depends on the product; printed boxes usually start at a few hundred units (fictional example).",
+            "ar": "يختلف حسب المنتج؛ وتبدأ العلب المطبوعة عادةً بكمية تبلغ بضع مئات من القطع (مثال افتراضي)."
+          },
           "soru": {
-            "tr": "Minimum parti büyüklüğü nedir?",
-            "en": "What is the minimum batch size?",
-            "ar": "ما الحد الأدنى لحجم الدفعة?"
+            "tr": "En az sipariş miktarı nedir?",
+            "en": "What is the minimum order quantity?",
+            "ar": "ما الحد الأدنى للطلب؟"
           },
           "cevap": {
-            "tr": "Ürün tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by product type; this demo text gives no example.",
-            "ar": "يتغير حسب نوع المنتج؛ ولا يعطي هذا النص التجريبي مثالًا."
+            "tr": "Ürüne göre değişir; baskılı kutuda genellikle birkaç yüz adetle başlanır (kurgusal örnek).",
+            "en": "It depends on the product; printed boxes usually start at a few hundred units (fictional example).",
+            "ar": "يختلف حسب المنتج؛ وتبدأ العلب المطبوعة عادةً بكمية تبلغ بضع مئات من القطع (مثال افتراضي)."
           }
         },
         {
+          "question": {
+            "tr": "Fiyat nasıl belirlenir?",
+            "en": "How is the price determined?",
+            "ar": "كيف يُحدَّد السعر؟"
+          },
+          "answer": {
+            "tr": "Ölçü, malzeme, renk sayısı ve adede göre teklif hazırlanır.",
+            "en": "A quote is prepared based on size, material, number of colours and quantity.",
+            "ar": "يُعدّ عرض السعر وفق القياس والخامة وعدد الألوان والكمية."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Fiyat nasıl belirlenir?",
+            "en": "How is the price determined?",
+            "ar": "كيف يُحدَّد السعر؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Ölçü, malzeme, renk sayısı ve adede göre teklif hazırlanır.",
+            "en": "A quote is prepared based on size, material, number of colours and quantity.",
+            "ar": "يُعدّ عرض السعر وفق القياس والخامة وعدد الألوان والكمية."
           }
         },
         {
+          "question": {
+            "tr": "Özel renk baskısı yapıyor musunuz?",
+            "en": "Do you print in custom colours?",
+            "ar": "هل تطبعون بألوان مخصصة؟"
+          },
+          "answer": {
+            "tr": "Evet; 4–8 renk baskı standarttır, marka renginiz için baskı örneği hazırlanır.",
+            "en": "Yes; 4–8 colour printing is standard and a print proof is prepared for your brand colour.",
+            "ar": "نعم، الطباعة بأربعة إلى ثمانية ألوان معيارية، ونجهّز عينة طباعة للون علامتك."
+          },
           "soru": {
-            "tr": "Özel renk baskısı yapabilir misiniz?",
-            "en": "Can you do a custom colour print?",
-            "ar": "هل يمكنكم الطباعة بلون مخصص?"
+            "tr": "Özel renk baskısı yapıyor musunuz?",
+            "en": "Do you print in custom colours?",
+            "ar": "هل تطبعون بألوان مخصصة؟"
           },
           "cevap": {
-            "tr": "4–8 renk baskı standart olarak sunulur.",
-            "en": "4–8 colour print is offered as standard.",
-            "ar": "تُقدَّم الطباعة بأربعة إلى ثمانية ألوان كمعيار."
+            "tr": "Evet; 4–8 renk baskı standarttır, marka renginiz için baskı örneği hazırlanır.",
+            "en": "Yes; 4–8 colour printing is standard and a print proof is prepared for your brand colour.",
+            "ar": "نعم، الطباعة بأربعة إلى ثمانية ألوان معيارية، ونجهّز عينة طباعة للون علامتك."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
-            "tr": "Sitedeki görseller ve veriler gerçek midir?",
-            "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "tr": "Sitedeki görseller ve bilgiler gerçek mi?",
+            "en": "Are the images and information on the site real?",
+            "ar": "هل الصور والمعلومات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+            "tr": "Hayır; görseller temsilî, ad, rakam ve kişiler kurgusaldır.",
+            "en": "No; images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "8px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Kutu teklifi isteyin",
+          "en": "Request a box quote",
+          "ar": "اطلب عرض سعر للعلب"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Ürün ölçüsünü ve adedi yazın; iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Tell us the product size and quantity; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب قياس المنتج والكمية ونردّ خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا تُحفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Pakira Ambalaj",
@@ -2421,14 +2472,14 @@
           "ar": "Pakira Ambalaj"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metin ve rakamlar kurgusaldır.",
+          "en": "Images are representative; text and figures are fictional.",
+          "ar": "الصور تمثيلية والنصوص والأرقام افتراضية."
         },
         "address": {
           "tr": "Sanayi Caddesi No: 41, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "41 Sanayi Avenue, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "شارع الصنaye رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الصناعة رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 021 01 01",
         "whatsapp": "903420210101",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Kart kutu teklifi",
+              "en": "Printed box quote",
+              "ar": "عرض سعر علب كرتونية"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Kavanoz ve şişe",
+              "en": "Jars and bottles",
+              "ar": "برطمانات وزجاجات"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Koli ve palet",
+              "en": "Cartons and pallets",
+              "ar": "كراتين ومنصات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,9 +2691,9 @@
           "ar": "Pakira Ambalaj"
         },
         "description": {
-          "tr": "Pakira Ambalaj, 2012den beri kâğıt, cam ve plastik ambalaj üretir. Bu sayfa bir demo örneğidir; metin ve rakamlar kurgusaldır.",
-          "en": "Pakira packaging has produced paper, glass and plastic packaging since 2012. This page is a demo example and the text and figures are fictional.",
-          "ar": "تنتج باكيرا تغليف تغليفًا من الورق والزجاج والبلاستيك منذ عام 2012. هذه الصفحة مثال تجريبي والنصوص والأرقام افتراضية."
+          "tr": "Pakira Ambalaj, 2012’den beri karton, cam ve koli ambalajı üretir. Bu sayfa demodur; metin ve rakamlar kurgusaldır.",
+          "en": "Pakira Ambalaj has produced cardboard, glass and carton packaging since 2012. This page is a demo; the text and figures are fictional.",
+          "ar": "تنتج باكيرا للتغليف منذ عام 2012 عبوات من الكرتون والزجاج وكراتين الشحن. هذه الصفحة تجريبية والنصوص والأرقام افتراضية."
         },
         "name2": {
           "tr": "Tek çatı",
@@ -2650,8 +2702,8 @@
         },
         "spot2": {
           "tr": "Tasarım, baskı ve üretim aynı tesiste yürür.",
-          "en": "Design, print and production run in the same site.",
-          "ar": "تسير التصميم والطباعة والإنتاج في الموقع نفسه."
+          "en": "Design, printing and production take place at the same site.",
+          "ar": "التصميم والطباعة والإنتاج في المنشأة نفسها."
         },
         "icon2": "roofing",
         "name3": {
@@ -2660,12 +2712,12 @@
           "ar": "بطاقة القياس"
         },
         "spot3": {
-          "tr": "Her müşteriye ölçü kartı; tekrar üretimi aynı ölçüde.",
-          "en": "A measure card per customer; repeat production at the same measure.",
-          "ar": "بطاقة قياس لكل عميل؛ إعادة الإنتاج بالقياس نفسه."
+          "tr": "Her müşteriye bir ölçü kartı; tekrar siparişte aynı ölçü kullanılır.",
+          "en": "Each customer gets a measure card; repeat orders use the same size.",
+          "ar": "لكل عميل بطاقة قياس، وتستخدم الطلبات المتكررة المقاس نفسه."
         },
         "icon3": "straighten",
-        "img": "ajans-ekip-masa.webp",
+        "img": "sanayi-kalite-lab.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Sanayi Caddesi No: 41, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "41 Sanayi Avenue, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "شارع الصنaye رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الصناعة رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 08:00 – 18:00",
+          "en": "Mon–Fri 08:00 – 18:00",
+          "ar": "الاثنين–الجمعة 08:00 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,9 +2899,9 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "8px",
         "title": {
-          "tr": "Ürün için kutu isteyin",
+          "tr": "Ürününüz için kutu isteyin",
           "en": "Request a box for your product",
-          "ar": "اطلب صندوقًا لمنتجك"
+          "ar": "اطلب علبة لمنتجك"
         },
         "text": {
           "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
@@ -2893,7 +2945,7 @@
         "waMessage": {
           "tr": "Merhaba, Pakira Ambalaj ile iletişime geçmek istiyorum.",
           "en": "Hello, I would like to get in touch with Pakira Ambalaj.",
-          "ar": "مرحبًا، أودّ التواصل مع Pakira Ambalaj."
+          "ar": "مرحبًا، أودّ التواصل مع باكيرا للتغليف."
         },
         "img": "",
         "alt": {
@@ -2951,7 +3003,7 @@
         "about": {
           "tr": "Pakira Ambalaj demo temadır; içerik kurgusaldır.",
           "en": "Pakira Ambalaj is a demo theme; the content is fictional.",
-          "ar": "قالب عرض تجريبي (Pakira Ambalaj)؛ المحتوى افتراضي."
+          "ar": "باكيرا للتغليف قالب تجريبي؛ المحتوى افتراضي."
         },
         "nlShow": true,
         "nlGonderim": "mailto",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Sanayi Caddesi No: 41, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "41 Sanayi Avenue, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "شارع الصنaye رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الصناعة رقم 41، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 021 01 01",
         "email": "bilgi@pakira.example",
