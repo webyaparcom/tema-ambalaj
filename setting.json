@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Karton, cam ve plastik ambalaj üretimi; ürün görselleri temsilîdir.",
-    "en": "Cardboard, glass and plastic packaging production; product images are representative.",
-    "ar": "تصنيع التغليف من الكرتون والزجاج والبلاستيك؛ صور المنتجات تمثيلية."
+    "tr": "Karton kutu, cam kavanoz ve koli üretimi; tasarımdan seri üretime. Görseller temsilîdir.",
+    "en": "Cardboard box, glass jar and carton production, from design to series output; images are representative.",
+    "ar": "تصنيع الصناديق الكرتونية والبرطمانات الزجاجية وكراتين الشحن، من التصميم إلى الإنتاج المتسلسل؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "ambalaj atölyesi, kutu üretimi",
-    "en": "packaging workshop, box production",
-    "ar": "ورشة تغليف، تصنيع صناديق"
+    "tr": "ambalaj, karton kutu, cam kavanoz, koli, seri üretim",
+    "en": "packaging, cardboard box, glass jar, carton, series production",
+    "ar": "تغليف، صناديق كرتونية، برطمانات زجاجية، كراتين، إنتاج متسلسل"
   },
   "category": "Kurumsal",
   "name": "Pakira Ambalaj",

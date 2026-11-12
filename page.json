@@ -9,8 +9,8 @@
       },
       "description": {
         "tr": "Tasarımdan seri üretime tek çatı.",
-        "en": "One roof from design to mass production.",
-        "ar": "سقف واحد من التصميم إلى الإنتاج الجماعي."
+        "en": "One roof from design to series production.",
+        "ar": "سقف واحد من التصميم إلى الإنتاج المتسلسل."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Kâğıt, cam ve plastik ambalaj üretimi.",
-        "en": "Paper, glass and plastic packaging production.",
-        "ar": "إنتاج تغليف من الورق والزجاج والبلاستيك."
+        "tr": "Karton, cam ve koli ambalajı üretimi.",
+        "en": "Cardboard, glass and carton packaging.",
+        "ar": "إنتاج عبوات الكرتون والزجاج والكراتين."
       }
     },
     {
