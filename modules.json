@@ -36,7 +36,8 @@
           "tr": "Üye Girişi",
           "en": "Login",
           "ar": "تسجيل الدخول"
-        }
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
       "version": "1.0.0",
       "icon": "info",
@@ -1998,7 +1999,7 @@
       "index": 17
     },
     {
-      "name": "Müşteri Yorumları 1",
+      "name": "Müşteri Yorumları 2 (Slider)",
       "desing": {
         "max": "1200px",
         "bgcolor": "var(--mx-site-bg, #ffffff)",
@@ -2017,11 +2018,6 @@
           "tr": "Üreticiler ne diyor?",
           "en": "What producers say",
           "ar": "ماذا يقول المنتجون؟"
-        },
-        "description": {
-          "tr": "Kurgusal örnek yorumlar.",
-          "en": "Fictional sample reviews.",
-          "ar": "آراء افتراضية للعرض."
         },
         "accentText": "#ffffff",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
@@ -2074,16 +2070,16 @@
         }
       ],
       "category": "testimonial",
-      "description": "Manuel müşteri yorumu kartları modülü. İsim, unvan, yıldız puanı ve yorum metnini responsive grid'de gösterir; fotoğraf yoksa baş harf avatarı kullanılır. Google'a bağımlı olmayan referans/yorum vitrini için kullanılır (otomatik çekim için google-yorumlar modülü).",
+      "description": "Swiper tabanlı müşteri yorumu slider'ı (testimonial-1'in grid düzenine alternatif). Otomatik oynatma, sayfalama noktaları ve responsive 1/2/3 slayt görünümü; yıldız puanı ve baş harf avatar fallback'i içerir.",
       "version": "1.0.0",
-      "icon": "format_quote",
+      "icon": "forum",
       "veri": {
         "statik": true,
         "dinamik": false,
         "kaynak": "desing/data"
       },
       "id": "wezsi3",
-      "path": "testimonial-1",
+      "path": "testimonial-2",
       "local": "body",
       "index": 18
     },
