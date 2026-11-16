@@ -1479,7 +1479,7 @@
       "desing": {
         "stil": "cta-butonlu",
         "logo": "{{logo}}",
-        "logo_acik": "logo-acik.svg",
+        "logo_acik": "logo-acik-ust.svg",
         "logo_h": "44px",
         "max": "1200px",
         "showlang": true,
